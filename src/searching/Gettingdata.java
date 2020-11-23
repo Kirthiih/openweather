@@ -77,7 +77,7 @@ public class Gettingdata {
 	public List<String> findTempHumidityWeather(String dateGiven) throws ParseException {
 		// 5,6,10,13
 
-		String samdate = dateGiven;//"2019-03-27";
+		String samdate = dateGiven;
 		double num = 0.0;
 		List<String> temphumiweat = new ArrayList<>();
 
